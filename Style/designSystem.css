@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;300;400;500;700;800;900&display=swap');
+
+:root{
+    --h1:40px;
+    --h2:32px;
+    --h3:28px;
+    --h4:24px;
+    --h5:20px;
+    --h6:16px;
+
+    --sub:20px;
+
+    --label:16px;
+    --ls:5px;
+
+    --body:14px;
+
+    --font-1:'Crimson Text', serif;
+    --font-2:'Work Sans', sans-serif;
+}
