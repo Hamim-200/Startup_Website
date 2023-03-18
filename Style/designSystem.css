@@ -153,13 +153,33 @@ background-color: var(--color-green-100);
         max-width: 500px;
     }
     .navbar__menu{
-        display: none;
+        z-index: 1;
+        background-color: var(--color-green-100);
+        position: absolute;
+        top:15vh;
+        width: 100%;
+        right: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .navbar__menu--1{
+        margin-top: -200px;
     }
     .navbar__icons{
         display: block;
     }
     .hide{
         display: none;
+    }
+
+    .hidden{
+        opacity: 0%;
+        z-index: -1;
     }
 }
 @media (max-width: 568px){
