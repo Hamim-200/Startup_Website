@@ -139,7 +139,7 @@ background-color: var(--color-green-100);
 .container{
     max-width: 1140px;
     margin: auto;
-    align-items: center;
+ 
 }
 
 .responsive-image{
@@ -149,6 +149,7 @@ background-color: var(--color-green-100);
 
 .grid{
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2,1fr);
     padding: 40px 0;
     gap:25px;
