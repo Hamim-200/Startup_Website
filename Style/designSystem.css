@@ -133,6 +133,9 @@ background-color: var(--color-green-100);
     }
 
 /* Rules for common classes */
+.text-center{
+    text-align: center;
+}
 .container{
     max-width: 1140px;
     margin: auto;
