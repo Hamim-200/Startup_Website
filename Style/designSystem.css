@@ -221,7 +221,7 @@ font-family: var(--font-2);
         z-index: 1;
         background-color: var(--color-green-100);
         position: absolute;
-        top:15vh;
+        top:100px;
         width: 100%;
         right: 0;
         height: 100vh;

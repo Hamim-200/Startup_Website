@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    min-height: 100vh;
+}
+
+.hero{
+    align-self: start;
+}
+
+.footerWrapper{
+    align-self: end;
+}
+
+.sectioOne__content--text{
+    font-size: var(--sub);
+    font-family: var(--font-2);
+}
